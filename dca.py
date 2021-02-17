@@ -5,7 +5,9 @@ if sys.argv[0] == "python3" or sys.argv[0] == "python":
 	del sys.argv[0]
 
 del sys.argv[0]
-
+if len(sys.argv) < 1:
+	print("Insufficient Arguments")
+	quit()
 arg_count = 1
 
 send_list = []
