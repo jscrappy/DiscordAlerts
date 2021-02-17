@@ -16,3 +16,5 @@ You can specify multiple channels and messages, simply repeat with a new channel
 
 DMs are currently not supported, but will be supported soon. 
 Currently, you must specify the Token on every request.
+
+You may need to install python3-pip first in order for the installer to install some dependencies.
